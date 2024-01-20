@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-16"?>
+<map mod="deathmatch">
+  <deathzone id="deathzone" minZ="329.5" />
+  
+  <camera posX="1574.58" posY="-1386.38" posZ="380" targetX="1544.58" targetY="-1356.38" targetZ="330"/>
+
+  <scorezone score="5" posX="1544.58" posY="-1356.38" posZ="330" radius="3" height="1.5"/>
+  <scorezone score="4" posX="1544.58" posY="-1356.38" posZ="330" radius="6" height="1.5"/>
+  <scorezone score="3" posX="1544.58" posY="-1356.38" posZ="330" radius="9" height="1.5"/>
+  <scorezone score="2" posX="1544.58" posY="-1356.38" posZ="330" radius="12" height="1.5"/>
+  <scorezone score="1" posX="1544.58" posY="-1356.38" posZ="330" radius="15" height="1.5"/>
+
+  <team name="blue" colorR="0" colorG="0" colorB="255" friendlyfire="false">
+    <pspawn posX="1532.08" posY="-744.38" posZ="703.179" rot="180" />
+    <pspawn posX="1537.08" posY="-744.38" posZ="703.179" rot="180" />
+    <pspawn posX="1542.08" posY="-744.38" posZ="703.179" rot="180" />
+    <pspawn posX="1547.08" posY="-744.38" posZ="703.179" rot="180" />
+    <pspawn posX="1552.08" posY="-744.38" posZ="703.179" rot="180" />
+    <pspawn posX="1557.08" posY="-744.38" posZ="703.179" rot="180" />
+  </team>
+
+  <team name="red" colorR="255" colorG="0" colorB="0" friendlyfire="false">
+    <pspawn posX="1532.08" posY="-1968.38" posZ="703.179" rot="0" />
+    <pspawn posX="1537.08" posY="-1968.38" posZ="703.179" rot="0" />
+    <pspawn posX="1542.08" posY="-1968.38" posZ="703.179" rot="0" />
+    <pspawn posX="1547.08" posY="-1968.38" posZ="703.179" rot="0" />
+    <pspawn posX="1552.08" posY="-1968.38" posZ="703.179" rot="0" />
+    <pspawn posX="1557.08" posY="-1968.38" posZ="703.179" rot="0" />
+  </team>
+
+  <object breakable="false" interior="0" alpha="255" dimension="0" model="1913" scale="1" doublesided="false" collisions="true" frozen="false" posX="1544.58" posY="-1356.38" posZ="330" rotX="0" rotY="0" rotZ="0" />
+  
+  <objectgroup id="rampsTeamBlue" posX="1544.58" posY="-744.38" posZ="700" rot="0">
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1912" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-17.4" posZ="-4.65" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-32.2" posZ="-18.88" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-47" posZ="-33.11" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-61.8" posZ="-47.35" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-76.6" posZ="-61.57" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-91.4" posZ="-75.8" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-106.2" posZ="-90.03" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-121" posZ="-104.26" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-135.8" posZ="-118.49" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-150.6" posZ="-132.72" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-165.4" posZ="-146.95" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-180.2" posZ="-161.18" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-195" posZ="-175.41" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-209.8" posZ="-189.64" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-227" posZ="-199.6" rotX="0" rotY="30" rotZ="270" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-246" posZ="-199.6" rotX="0" rotY="0" rotZ="270" />
+
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1912" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-17.4" posZ="-4.65" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-32.2" posZ="-18.88" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-47" posZ="-33.11" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-61.8" posZ="-47.35" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-76.6" posZ="-61.57" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-91.4" posZ="-75.8" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-106.2" posZ="-90.03" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-121" posZ="-104.26" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-135.8" posZ="-118.49" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-150.6" posZ="-132.72" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-165.4" posZ="-146.95" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-180.2" posZ="-161.18" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-195" posZ="-175.41" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-209.8" posZ="-189.64" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-227" posZ="-199.6" rotX="0" rotY="30" rotZ="270" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-246" posZ="-199.6" rotX="0" rotY="0" rotZ="270" />
+  </objectgroup>
+
+  <objectgroup id="rampsTeamRed" posX="1544.58" posY="-1968.38" posZ="700" rot="180">
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1912" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-17.4" posZ="-4.65" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-32.2" posZ="-18.88" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-47" posZ="-33.11" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-61.8" posZ="-47.35" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-76.6" posZ="-61.57" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-91.4" posZ="-75.8" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-106.2" posZ="-90.03" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-121" posZ="-104.26" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-135.8" posZ="-118.49" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-150.6" posZ="-132.72" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-165.4" posZ="-146.95" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-180.2" posZ="-161.18" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-195" posZ="-175.41" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-209.8" posZ="-189.64" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-227" posZ="-199.6" rotX="0" rotY="30" rotZ="270" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="-10" posY="-246" posZ="-199.6" rotX="0" rotY="0" rotZ="270" />
+
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1912" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-17.4" posZ="-4.65" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-32.2" posZ="-18.88" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-47" posZ="-33.11" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-61.8" posZ="-47.35" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-76.6" posZ="-61.57" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-91.4" posZ="-75.8" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-106.2" posZ="-90.03" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-121" posZ="-104.26" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-135.8" posZ="-118.49" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-150.6" posZ="-132.72" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-165.4" posZ="-146.95" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-180.2" posZ="-161.18" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-195" posZ="-175.41" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1909" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-209.8" posZ="-189.64" rotX="330" rotY="0" rotZ="180" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-227" posZ="-199.6" rotX="0" rotY="30" rotZ="270" />
+    <object breakable="false" interior="0" alpha="255" dimension="0" model="1899" scale="1" doublesided="false" collisions="true" frozen="false" posX="10" posY="-246" posZ="-199.6" rotX="0" rotY="0" rotZ="270" />
+  </objectgroup>
+</map>

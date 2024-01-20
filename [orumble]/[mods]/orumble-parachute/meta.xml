@@ -1,0 +1,6 @@
+<meta>
+	<info name="Overtime Rumble Parachute" author="Kiriller12, Jax + Talidan" version="0.1" type="script" />
+	
+	<script src="server.lua"/>
+	<script src="client.lua" type="client" protected="true"/>
+</meta>

@@ -1,0 +1,19 @@
+<meta>
+    <info gamemodes="orumble" type="map" name="Overtime Rumble: Darts" author="Kiriller12, USF" version="0.1" />
+    
+    <map src="orumble-m-darts.map" dimension="0" />
+    
+    <settings>
+        <setting name="#maxplayers" value="[ 12 ]"></setting>
+        <setting name="#useLODs" value="[ true ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 1 ]"></setting>
+        <setting name="#gravity" value="[ 0.0080000004 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ true ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+        <setting name="#rounds" value="[ 5 ]"></setting>
+        <setting name="#roundtime" value="[ 60 ]"></setting>
+    </settings>
+</meta>

@@ -1,0 +1,26 @@
+<meta>
+	<info name="Overtime Rumble Models" author="Kiriller12, SAMP, USF, Cowboy69" version="1.0" type="script" />
+	
+	<script src="client.lua" type="client" protected="true"/>
+	
+	<!-- Models -->
+		<!-- Ramps -->
+		<!-- <file src="models/MatRamps.txd" />
+
+		<file src="models/FunBoxRamp1.dff" />
+		<file src="models/FunBoxRamp1.col" />
+        
+		<file src="models/FunBoxRamp2.dff" />
+		<file src="models/FunBoxRamp2.col" />
+        
+		<file src="models/FunBoxRamp4.dff" />
+		<file src="models/FunBoxRamp4.col" />
+        
+		<file src="models/FunBoxTop1.dff" />
+		<file src="models/FunBoxTop1.col" /> -->
+		
+		<!-- Platforms -->
+		<file src="models/CarDarts.txd" />
+		<file src="models/CarDarts.dff" />
+		<file src="models/CarDarts.col" />
+</meta>
