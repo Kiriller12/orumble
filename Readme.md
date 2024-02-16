@@ -14,6 +14,13 @@ Additional thanks to:
 
 Additional license info and remarks can be found in corresponding mod folders.
 
+## Video preview
+
+Click on the image to watch video or use the following link:\
+https://youtu.be/-nRk97EcO68
+
+[![Watch the video](https://img.youtube.com/vi/-nRk97EcO68/maxresdefault.jpg)](https://youtu.be/-nRk97EcO68)
+
 ## How to use
 
 You can just add those files to your server's resource "[gamemodes]" folder and start game mode as any other game modes.
